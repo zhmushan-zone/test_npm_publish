@@ -6,6 +6,7 @@
   "author": "木杉 <zhmushan@qq.com>",
   "license": "MIT",
   "devDependencies": {
+    "@semantic-release/git": "^9.0.0",
     "semantic-release": "^17.1.1"
   }
 }

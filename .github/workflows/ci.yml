@@ -17,6 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - run: npm i
       - name: Release
         # if: startsWith(github.ref, 'refs/tags/v') && github.repository == 'zhmushan-zone/test_npm_publish'
         if: github.event_name == 'push'
