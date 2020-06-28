@@ -1,5 +1,5 @@
 {
-  "name": "test_npm_publish",
+  "name": "@zhmushan/test_npm_publish",
   "version": "1.0.1",
   "main": "index.js",
   "repository": "https://github.com/zhmushan-zone/test_npm_publish.git",
