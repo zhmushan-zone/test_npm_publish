@@ -1,6 +1,6 @@
 {
   "name": "test_npm_publish",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "https://github.com/zhmushan-zone/test_npm_publish.git",
   "author": "木杉 <zhmushan@qq.com>",
