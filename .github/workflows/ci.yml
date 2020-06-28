@@ -17,7 +17,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Release
-        if: startsWith(github.ref, 'refs/tags/v') && github.repository == 'zhmushan-zone/test_npm_publish'
+        # if: startsWith(github.ref, 'refs/tags/v') && github.repository == 'zhmushan-zone/test_npm_publish'
+        if: github.event_name == 'push'
         run: npx semantic-release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
